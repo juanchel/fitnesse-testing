@@ -1,0 +1,22 @@
+!contents -R2 -g -p -f -h
+
+|Import|
+|fitnesse.fixtures|
+
+!path ../target/generated-classes/cobertura
+
+Path to cobertura jar file 
+!path cobertura-2.0.3/cobertura-2.0.3.jar
+!path FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar
+|System property setter fixture| 
+|key|value| 
+|net.sourceforge.cobertura.datafile|/Users/chen/git/FitExample/target/cobertura/cobertura.ser|
+
+Path to instrumented class files directory 
+!path ../target/generated-classes/cobertura
+!path target/generated-classes/cobertura
+
+Path to original class files directory 
+!path ../target/classes
+!path target/classes
+

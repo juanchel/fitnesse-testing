@@ -1,0 +1,85 @@
+!contents -R2 -g -p -f -h
+
+!include .FitNesse.MyFitExamples.Date.DateHeader
+
+|Import|
+|fitnesse.fixtures|
+
+!path ../target/generated-classes/cobertura
+
+Path to cobertura jar file 
+!path cobertura-2.0.3/cobertura-2.0.3.jar
+!path FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar
+|System property setter fixture| 
+|key|value| 
+|net.sourceforge.cobertura.datafile|/Users/chen/Downloads/FitExample-master/target/cobertura/cobertura.ser|
+
+Path to instrumented class files directory 
+!path ../target/generated-classes/cobertura
+!path target/generated-classes/cobertura
+
+Path to original class files directory 
+!path ../target/classes
+!path target/classes
+
+
+LAB REPORT - Test Design Exercises
+
+Name: Juanchen Li
+Andrew ID: juanchel
+URL of your github repo: https://github.com/cmusv-svvt/FitExample-Private
+
+
+- 1. Summary
+
+ * Finished
+  * First, I identified the attributes data is comprised of
+  * Then, I partitioned these attributes into sets of characteristics
+  * I used the attributes and characteristics to choose a set of dates to test
+   * I chose -1, 0, 1, and a value too high for each month and date, as well as 1899 and 2201 for year
+   * I arbitrarily used 2015 and 2016 form my standard leap and non leap years
+   * I tested the end of month days for both months with 31 days, 30 days, and Feb in both leap and non leap years
+   * I tested the last day of the year
+   * I tested 2000 as the exception leap year
+   * I also tested 1900 and 2200 as boundary valid years
+  * I implemented my DateCheck class that is an extension of ColumnFixture
+  * I used FitNesse to implement and test the test cases I specified earlier
+ * Outstanding
+  * I was still having problems with my coverage report showing me 0%.
+
+- 2. Lessons Learned
+
+ * There is a lot of ways to partition out Date, and it can get pretty complex when choosing cases that cover everything but aren't redundant
+ * These tests actually helped reveal a few faults in my code, mostly due to me not handling error values such as -1 or 0
+ * After setup, FitNesse was a surprisingly easy to use tool, this exercise would have been much more work using something like JUnit
+ * You have to be careful when you specify the expected output for your tests, as sometimes I entered the wrong thing, which could have made false positives
+ * However, some parts of FitNesse is less expressive compared to JUnit, and it seems that it would be harder to test more complex functionalities
+
+- 3. Suggestions for Improvements (Optional)
+
+ * I was a little confused when writing my classes on how I should have handled exceptions, and I needed to spend time going back during lab to patch it up, so extra instructions would have been appreciated.
+
+
+
+| fit.date.DateCheck |
+| day | month | year | nextDay? | nextMonth? | nextYear? | isLeapYear? |
+| 1   | 1     | 1900 | 2        | 1          | 1900      | true        |
+| 1   | 1     | 2000 | 2        | 1          | 2000      | false       |
+| 28  | 2     | 2000 | 1        | 3          | 2000      | false       |
+| 1   | 1     | 2015 | 2        | 1          | 2015      | false       |
+| 31  | 1     | 2015 | 1        | 2          | 2015      | false       |
+| 30  | 4     | 2015 | 1        | 5          | 2015      | false       |
+| 28  | 2     | 2015 | 1        | 3          | 2015      | false       |
+| 31  | 12    | 2015 | 1        | 1          | 2016      | false       |
+| 1   | 1     | 2015 | 2        | 1          | 2015      | false       |
+| 28  | 2     | 2016 | 29       | 2          | 2016      | true        |
+| 29  | 2     | 2016 | 1        | 3          | 2016      | true        |
+| 31  | 12    | 2200 | 1        | 1          | 1900      | true        |
+| -1  | 1     | 2015 | error    | error      | error     | false       |
+| 1   | -1    | 2015 | error    | error      | error     | false       |
+| 1   | 1     | 2201 | error    | error      | error     | false       |
+| 1   | 1     | 1899 | error    | error      | error     | false       |
+| 0   | 1     | 2015 | error    | error      | error     | false       |
+| 1   | 0     | 2015 | error    | error      | error     | false       |
+| 32  | 1     | 2015 | error    | error      | error     | false       |
+| 1   | 13    | 2015 | error    | error      | error     | false       |

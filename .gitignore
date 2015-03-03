@@ -1,0 +1,8 @@
+/target/ 
+/FitnesseDir/FitNesseRoot/**/*.zip
+/FitnesseDir/FitNesseRoot/ErrorLogs/
+/FitnesseDir/FitNesseRoot/RecentChanges/ 
+/FitnesseDir/FitNesseRoot/files/  
+**/.DS_Store 
+!/FitnesseDir/fixturegallery*
+

@@ -1,0 +1,39 @@
+!contents -R2 -g -p -f -h
+
+LAB REPORT - Test Design Exercises
+
+Name: Juanchen Li
+Andrew ID: juanchel
+URL of your github repo: https://github.com/cmusv-svvt/FitExample-Private
+
+
+- 1. Summary
+
+ * Finished
+  * First, I identified the attributes data is comprised of
+  * Then, I partitioned these attributes into sets of characteristics
+  * I used the attributes and characteristics to choose a set of dates to test
+   * I chose -1, 0, 1, and a value too high for each month and date, as well as 1899 and 2201 for year
+   * I arbitrarily used 2015 and 2016 form my standard leap and non leap years
+   * I tested the end of month days for both months with 31 days, 30 days, and Feb in both leap and non leap years
+   * I tested the last day of the year
+   * I tested 2000 as the exception leap year
+   * I also tested 1900 and 2200 as boundary valid years
+  * I implemented my DateCheck class that is an extension of ColumnFixture
+  * I used FitNesse to implement and test the test cases I specified earlier
+ * Outstanding
+  * I was still having problems with my coverage report showing me 0%.
+
+- 2. Lessons Learned
+
+ * There is a lot of ways to partition out Date, and it can get pretty complex when choosing cases that cover everything but aren't redundant
+ * These tests actually helped reveal a few faults in my code, mostly due to me not handling error values such as -1 or 0
+ * After setup, FitNesse was a surprisingly easy to use tool, this exercise would have been much more work using something like JUnit
+ * You have to be careful when you specify the expected output for your tests, as sometimes I entered the wrong thing, which could have made false positives
+ * However, some parts of FitNesse is less expressive compared to JUnit, and it seems that it would be harder to test more complex functionalities
+
+- 3. Suggestions for Improvements (Optional)
+
+ * I was a little confused when writing my classes on how I should have handled exceptions, and I needed to spend time going back during lab to patch it up, so extra instructions would have been appreciated.
+
+// This report should be about one page long. //

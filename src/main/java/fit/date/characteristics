@@ -1,0 +1,30 @@
+Attributes
+
+Day		0 - 31
+Month   0 - 12
+Year    1900 - 2200
+
+Characteristics
+
+Normal leap year / Normal non leap year / Year 2000
+Last day of month / Other days
+February / December / Other months
+
+Leap Year Type : Normal year / Leap year / Exception leap year (2000)
+Day : Negative / 0 / 1 / Last of month / 28 of Feb / In between / Greater
+Month : Negative / 0 / Jan / Feb / 31 day month / 30 day month / Dec / Greater
+Year : Less / 1900 / Other / 2200`/ Greater
+
+Valid
+1  / 1  / 1900
+1  / 1  / 2000
+28 / 2  / 2000
+1  / 1  / 2015
+31 / 1  / 2015
+30 / 4  / 2015
+28 / 2  / 2015
+31 / 12 / 2015
+1  / 1  / 2016
+28 / 2  / 2016
+29 / 2  / 2016
+31 / 12 / 2200

@@ -1,0 +1,5 @@
+!contents -R2 -g -p -f -h
+
+!2 ''My Acceptance Tests''
+
+| ..FitNesse.MyFitExamples.WeeklyTimesheet.TimesheetSuite.MyFitExample | ''weekly compensation tests'' |
