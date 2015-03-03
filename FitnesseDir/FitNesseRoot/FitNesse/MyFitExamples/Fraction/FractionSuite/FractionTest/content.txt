@@ -12,7 +12,7 @@ Path to cobertura jar file
 !path FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar
 |System property setter fixture| 
 |key|value| 
-|net.sourceforge.cobertura.datafile|/Users/chen/Downloads/FitExample-master/target/cobertura/cobertura.ser|
+|net.sourceforge.cobertura.datafile|/Users/linlee/Documents/workspace/svvtproject/fitnesse-testing/target/cobertura/cobertura.ser|
 
 Path to instrumented class files directory 
 !path ../target/generated-classes/cobertura
@@ -22,6 +22,31 @@ Path to original class files directory
 !path ../target/classes
 !path target/classes
 
-| fit.fraction.FractionTest |
-| numerator | denominator | getDenominator? |
-| 1         | 1           | 1               |
+| fit.fraction.FractionNumDenom |
+| numerator | denominator | getDenominator? | getNumerator? | getReducedNumerator? | getReducedDenominator? | getProperNumerator?| 
+| 1         | 1           | 1               | 1             | 1                    | 1                      | 0                  | 
+| 3         | 6           | 6               | 3             | 1                    | 2                      | 3                  | 
+| 6         | 4           | 4               | 6             | 3                    | 2                      | 2                  |
+| 0         | 2           | 2               | 0             | 0                    | 1                      | 0                  | 
+| -1         | -1           | 1               | 1             | 1                    | 1                      | 0                  | 
+| -14         | -4           | 4               | 14             | 7                    | 2                      | 2                  |
+| -50 | 2 | 2 | -50 | -25 | 1 | 0 | 
+
+Get whole values:
+
+| fit.fraction.FractionNumDenom |
+| numerator | denominator | getProperWhole? | getIntValue? | getLongValue? | getFloatValue? | getDoubleValue?| 
+| 1 | 1 | 1 | 1 | 1 | 1.0 | 1.0 |
+| 5 | 2 | 2 | 2 | 2 | 2.5 | 2.5 |
+| 22 | 7 | 3 | 3 | 3 | 3.142857 | 3.142857142857143 |
+| 0 | 7 | 0 | 0 | 0 | 0.0 | 0.0 |
+| 600000000 | 2 | 300000000 | 300000000 | 300000000 | 300000000.0 | 300000000.0 |
+| -5 | 2 | -2 | -2 | -2 | -2.5 | -2.5 |
+
+Single Fraction OPs:
+| fit.fraction.FractionNumDenom |
+| numerator | denominator | getInvertNumerator? | getInvertDenominator? | getNegateNumerator? | getNegateDenominator? | getAbsNumerator? | getAbsDenominator?|
+| 1 | 1 | 1 | 1 | -1 | 1 | 1 | 1 |
+| 1 | -1 | -1 | 1 | 1 | 1 | 1 | 1 |
+| 5 | 2 | 2 | 5 | -5 | 2 | 5 | 2 |
+| -2 | -3 | 3 | 2 | -2 | 3 | 2 | 3 |
