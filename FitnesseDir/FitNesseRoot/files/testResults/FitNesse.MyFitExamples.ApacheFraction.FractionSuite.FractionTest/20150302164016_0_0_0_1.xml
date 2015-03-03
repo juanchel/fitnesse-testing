@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.ApacheFraction.FractionSuite.FractionTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <runTimeInMillis>47</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.MyFitExamples.ApacheFraction.FractionHeader"&gt;.FitNesse.MyFitExamples.ApacheFraction.FractionHeader&lt;/a&gt; &lt;a href="FitNesse.MyFitExamples.ApacheFraction.FractionHeader?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Path to cobertura jar file &lt;br/&gt;&lt;span class="meta"&gt;classpath: cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;System property setter fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;key&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;net.sourceforge.cobertura.datafile&lt;/td&gt;
+		&lt;td&gt;/Users/chen/git/FitExample/target/cobertura/cobertura.ser&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Path to instrumented class files directory &lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Path to original class files directory &lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;fit.fraction.FractionTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td class="error"&gt;getNumerator&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find field: getNumerator.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;getDenominator&lt;/td&gt;
+		&lt;td&gt;getReducedDenominator&lt;/td&gt;
+		&lt;td&gt;swaggity&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="error"&gt;1&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;1&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;1&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;true&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>FractionTest</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>48</totalRunTimeInMillis>
+  
+</testResults>
+

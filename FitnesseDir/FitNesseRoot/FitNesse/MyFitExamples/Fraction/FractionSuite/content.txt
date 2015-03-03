@@ -1,0 +1,3 @@
+!contents -R2 -g -p -f -h
+
+| ..FitNesse.MyFitExamples.Fraction.FractionSuite.FractionTest | ''weekly compensation tests'' |

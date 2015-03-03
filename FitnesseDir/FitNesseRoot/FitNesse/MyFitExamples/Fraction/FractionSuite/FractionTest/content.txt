@@ -1,0 +1,27 @@
+!contents -R2 -g -p -f -h
+
+!include .FitNesse.MyFitExamples.Fraction.FractionHeader
+
+|Import|
+|fitnesse.fixtures|
+
+!path ../target/generated-classes/cobertura
+
+Path to cobertura jar file 
+!path cobertura-2.0.3/cobertura-2.0.3.jar
+!path FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar
+|System property setter fixture| 
+|key|value| 
+|net.sourceforge.cobertura.datafile|/Users/chen/Downloads/FitExample-master/target/cobertura/cobertura.ser|
+
+Path to instrumented class files directory 
+!path ../target/generated-classes/cobertura
+!path target/generated-classes/cobertura
+
+Path to original class files directory 
+!path ../target/classes
+!path target/classes
+
+| fit.fraction.FractionTest |
+| numerator | denominator | getDenominator? |
+| 1         | 1           | 1               |
