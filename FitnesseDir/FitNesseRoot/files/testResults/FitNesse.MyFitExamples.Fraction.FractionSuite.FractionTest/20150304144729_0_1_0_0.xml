@@ -1,0 +1,769 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FitNesse.MyFitExamples.Fraction.FractionSuite.FractionTest</rootPath>
+    <result>
+    <counts>
+      <right>166</right>
+      <wrong>18</wrong>
+      <ignores>0</ignores>
+      <exceptions>7</exceptions>
+    </counts>
+    <runTimeInMillis>94</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.MyFitExamples"&gt;.FitNesse.MyFitExamples&lt;/a&gt; &lt;a href="FitNesse.MyFitExamples?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+.Fraction.FractionHeader&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;Path to cobertura jar file&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: FitnesseDir/cobertura-2.0.3/cobertura-2.0.3.jar&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;System property setter fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;key&lt;/td&gt;
+		&lt;td&gt;value&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;net.sourceforge.cobertura.datafile&lt;/td&gt;
+		&lt;td&gt;/Users/linlee/Documents/workspace/svvtproject/fitnesse-testing/target/cobertura/cobertura.ser&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Path to instrumented class files directory&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/generated-classes/cobertura&lt;/span&gt;&lt;br/&gt;Path to original class files directory&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../target/classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;getDenominator?&lt;/td&gt;
+		&lt;td&gt;getNumerator?&lt;/td&gt;
+		&lt;td&gt;getReducedNumerator?&lt;/td&gt;
+		&lt;td&gt;getReducedDenominator?&lt;/td&gt;
+		&lt;td&gt;getProperNumerator?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td class="pass"&gt;6&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;6&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-1&lt;/td&gt;
+		&lt;td&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-14&lt;/td&gt;
+		&lt;td&gt;-4&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;14&lt;/td&gt;
+		&lt;td class="pass"&gt;7&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-50&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;-50&lt;/td&gt;
+		&lt;td class="pass"&gt;-25&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;Get whole values:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;getProperWhole?&lt;/td&gt;
+		&lt;td&gt;getIntValue?&lt;/td&gt;
+		&lt;td&gt;getLongValue?&lt;/td&gt;
+		&lt;td&gt;getFloatValue?&lt;/td&gt;
+		&lt;td&gt;getDoubleValue?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1.0&lt;/td&gt;
+		&lt;td class="pass"&gt;1.0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2.5&lt;/td&gt;
+		&lt;td class="pass"&gt;2.5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;22&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;3.142857&lt;/td&gt;
+		&lt;td class="pass"&gt;3.142857142857143&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0.0&lt;/td&gt;
+		&lt;td class="pass"&gt;0.0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;600000000&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;300000000&lt;/td&gt;
+		&lt;td class="pass"&gt;300000000&lt;/td&gt;
+		&lt;td class="pass"&gt;300000000&lt;/td&gt;
+		&lt;td class="pass"&gt;300000000.0&lt;/td&gt;
+		&lt;td class="pass"&gt;300000000.0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-5&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;-2&lt;/td&gt;
+		&lt;td class="pass"&gt;-2&lt;/td&gt;
+		&lt;td class="pass"&gt;-2&lt;/td&gt;
+		&lt;td class="pass"&gt;-2.5&lt;/td&gt;
+		&lt;td class="pass"&gt;-2.5&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+ &lt;br/&gt;&lt;br/&gt;Single Fraction OPs:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="8"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;getInvertNumerator?&lt;/td&gt;
+		&lt;td&gt;getInvertDenominator?&lt;/td&gt;
+		&lt;td&gt;getNegateNumerator?&lt;/td&gt;
+		&lt;td&gt;getNegateDenominator?&lt;/td&gt;
+		&lt;td&gt;getAbsNumerator?&lt;/td&gt;
+		&lt;td&gt;getAbsDenominator?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;5&lt;/td&gt;
+		&lt;td class="pass"&gt;-5&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;5&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-2&lt;/td&gt;
+		&lt;td&gt;-3&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;-2&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2147483647&lt;/td&gt;
+		&lt;td&gt;-2147483648&lt;/td&gt;
+		&lt;td class="pass"&gt;-2147483648&lt;/td&gt;
+		&lt;td class="fail"&gt;-2147483647 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;2147483647 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;-2147483647 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;2147483647 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;2147483647 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;-2147483648 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;2147483647&lt;/td&gt;
+		&lt;td class="fail"&gt;2147483647 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;-2147483648 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;String Tests:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;getString?&lt;/td&gt;
+		&lt;td&gt;getProperString?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;2/3&lt;/td&gt;
+		&lt;td class="pass"&gt;2/3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0/1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;4/3&lt;/td&gt;
+		&lt;td class="pass"&gt;1 1/3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;6/3&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-3&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;-3/3&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-4&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;-4/3&lt;/td&gt;
+		&lt;td class="pass"&gt;-1 1/3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Whole to function:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;whole&lt;/td&gt;
+		&lt;td&gt;getNumeratorFromWhole?&lt;/td&gt;
+		&lt;td&gt;getDenominatorFromWhole?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;33&lt;/td&gt;
+		&lt;td&gt;22&lt;/td&gt;
+		&lt;td&gt;44&lt;/td&gt;
+		&lt;td class="pass"&gt;1001&lt;/td&gt;
+		&lt;td class="pass"&gt;22&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;998&lt;/td&gt;
+		&lt;td&gt;1000&lt;/td&gt;
+		&lt;td class="pass"&gt;998000&lt;/td&gt;
+		&lt;td class="pass"&gt;998&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;-2&lt;/td&gt;
+		&lt;td class="pass"&gt;-8&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Convert float of data to fraction:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;floatingPoint&lt;/td&gt;
+		&lt;td&gt;getNumeratorFromDouble?&lt;/td&gt;
+		&lt;td&gt;getDenominatorFromDouble?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1.2&lt;/td&gt;
+		&lt;td class="fail"&gt;6 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;5 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0.1&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;0 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;10 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Convert String of data to fraction:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;str&lt;/td&gt;
+		&lt;td&gt;getNumeratorFromString?&lt;/td&gt;
+		&lt;td&gt;getDenominatorFromString?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1.2&lt;/td&gt;
+		&lt;td class="fail"&gt;6 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;5 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0.1&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;0 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;10 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Power of fraction:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="5"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;power&lt;/td&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;getPowerNumerator?&lt;/td&gt;
+		&lt;td&gt;getPowerDenominator?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Test calculate:&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="14"&gt;fit.fraction.FractionNumDenom&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;numerator2&lt;/td&gt;
+		&lt;td&gt;denominator2&lt;/td&gt;
+		&lt;td&gt;getSumNumerator?&lt;/td&gt;
+		&lt;td&gt;getSumDenominator?&lt;/td&gt;
+		&lt;td&gt;getDifferenceNumerator?&lt;/td&gt;
+		&lt;td&gt;getDifferenceDenominator?&lt;/td&gt;
+		&lt;td&gt;getProductNumerator?&lt;/td&gt;
+		&lt;td&gt;getProductDenominator?&lt;/td&gt;
+		&lt;td&gt;getQuotientNumerator?&lt;/td&gt;
+		&lt;td&gt;getQuotientNumerator?&lt;/td&gt;
+		&lt;td&gt;equalsTo?&lt;/td&gt;
+		&lt;td&gt;compareTo?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="error"&gt;null&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.ArithmeticException: The fraction to divide by must not be zero
+	at fraction.Fraction.divideBy(Fraction.java:817)
+	at fit.fraction.FractionNumDenom.getQuotientNumerator(FractionNumDenom.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;null&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.ArithmeticException: The fraction to divide by must not be zero
+	at fraction.Fraction.divideBy(Fraction.java:817)
+	at fit.fraction.FractionNumDenom.getQuotientNumerator(FractionNumDenom.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="error"&gt;0&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problem: 
+	The method compareTo(Fraction) of type Fraction must override a superclass method
+
+	at fraction.Fraction.compareTo(Fraction.java:872)
+	at fit.fraction.FractionNumDenom.compareTo(FractionNumDenom.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;0 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="error"&gt;-1&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problem: 
+	The method compareTo(Fraction) of type Fraction must override a superclass method
+
+	at fraction.Fraction.compareTo(Fraction.java:872)
+	at fit.fraction.FractionNumDenom.compareTo(FractionNumDenom.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;-1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;-1&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;-1 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="error"&gt;1&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problem: 
+	The method compareTo(Fraction) of type Fraction must override a superclass method
+
+	at fraction.Fraction.compareTo(Fraction.java:872)
+	at fit.fraction.FractionNumDenom.compareTo(FractionNumDenom.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;2 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;2 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="fail"&gt;1 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;2 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="error"&gt;0&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problem: 
+	The method compareTo(Fraction) of type Fraction must override a superclass method
+
+	at fraction.Fraction.compareTo(Fraction.java:872)
+	at fit.fraction.FractionNumDenom.compareTo(FractionNumDenom.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+		&lt;td class="fail"&gt;false &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;true &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="error"&gt;0&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.Error: Unresolved compilation problem: 
+	The method compareTo(Fraction) of type Fraction must override a superclass method
+
+	at fraction.Fraction.compareTo(Fraction.java:872)
+	at fit.fraction.FractionNumDenom.compareTo(FractionNumDenom.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:109)
+	at fit.TypeAdapter.get(TypeAdapter.java:97)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:373)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:359)
+	at fit.Fixture.compareCellToResult(Fixture.java:301)
+	at fit.Fixture.check(Fixture.java:297)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:220)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:173)
+	at fit.Fixture.doRow(Fixture.java:167)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:161)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:155)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:120)
+	at fit.Fixture.interpretTables(Fixture.java:106)
+	at fit.Fixture.doTables(Fixture.java:80)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>FractionTest</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>94</totalRunTimeInMillis>
+  
+</testResults>
+

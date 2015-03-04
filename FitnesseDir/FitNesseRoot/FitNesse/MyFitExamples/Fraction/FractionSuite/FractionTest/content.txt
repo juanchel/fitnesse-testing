@@ -30,6 +30,7 @@ Path to original class files directory
 | -14 | -4 | 4 | 14 | 7 | 2 | 2 |
 | -50 | 2 | 2 | -50 | -25 | 1 | 0 |
 
+
 Get whole values:
 
 | fit.fraction.FractionNumDenom |
@@ -40,6 +41,7 @@ Get whole values:
 | 0 | 7 | 0 | 0 | 0 | 0.0 | 0.0 |
 | 600000000 | 2 | 300000000 | 300000000 | 300000000 | 300000000.0 | 300000000.0 |
 | -5 | 2 | -2 | -2 | -2 | -2.5 | -2.5 |
+ 
 
 Single Fraction OPs:
 
@@ -49,6 +51,9 @@ Single Fraction OPs:
 | 1 | -1 | -1 | 1 | 1 | 1 | 1 | 1 |
 | 5 | 2 | 2 | 5 | -5 | 2 | 5 | 2 |
 | -2 | -3 | 3 | 2 | -2 | 3 | 2 | 3 |
+| 2147483647 | -2147483648 | -2147483648 | -2147483647 | -2147483647 | 2147483647 | 2147483647 | 2147483647 |
+
+In the last case, intentionally use a wrong value as expected to show the result program gave.
 
 String Tests:
 
